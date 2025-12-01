@@ -6,30 +6,30 @@ This project analyzes the dataset "Impact of Chatbots on University Students' Le
 
 ## **Steps and Methodology**
 
-### **1. Data Processing and Visualization**
+**1. Data Processing and Visualization**
 **Tasks**: Preprocess and visualize demographic data, AI usage, and attitudes with pie charts, count plots, and bar charts.
 
 **Outcome**: Cleaned and visualized dataset ready for further analysis.
 
-### **2. Sentiment Analysis**
+**2. Sentiment Analysis**
 
 **Tasks**: Analyze feedback sentiment (positive, negative, neutral) and extract keywords.
 
 **Outcome**: Insights into student satisfaction and areas for improvement.
 
-### **3. Frequent Users’ Perceptions**
+**3. Frequent Users’ Perceptions**
 
 **Tasks**: Visualize the benefits and challenges perceived by frequent AI users (Q8, Q9).
 
 **Outcome**: Bar charts showing frequent users' attitudes toward AI’s effectiveness and limitations.
 
-### **4. Infrequent Users’ Concerns**
+**4. Infrequent Users’ Concerns**
 
 **Tasks**: Visualize concerns and willingness of infrequent users toward AI (Q6, Q7).
 
 **Outcome**: Insights into barriers to AI adoption among students.
 
-### **5. Clustering Analysis**
+**5. Clustering Analysis**
 
 **Tasks**: Apply K-Means and hierarchical clustering to identify patterns in student attitudes.
 
