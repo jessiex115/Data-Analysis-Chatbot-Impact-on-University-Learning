@@ -1,14 +1,36 @@
-**Analyzing Dataset of University Students’ Perceptions of AI Chatbots: Exploring Clustering and Insights into Learner Profiles**
+# **Analyzing Dataset of University Students’ Perceptions of AI Chatbots: Exploring Clustering and Insights into Learner Profiles**
 
-This project analyzes the dataset "Impact of Chatbots on University Students' Learning Experiences" from Kaggle, focusing on university students' perceptions of chatbots and their impact on learning. The goal is to explore students' attitudes toward AI-driven chatbots and their educational influence.
-The project follows these key steps:
+## **Overview**
 
-1. **Data Preprocessing**: Cleaning and preparing the dataset for analysis, including handling missing values and encoding categorical data.
-2. **Exploratory Data Analysis (EDA)**: Visualizing and summarizing the data to identify trends in demographics and chatbot usage.
-3. **Demographic Analysis**: Examining how demographics influence chatbot perceptions and usage patterns.
-4. **Sentiment Analysis**: Analyzing open-ended survey responses to assess student sentiment toward chatbots using NLP techniques.
-5. **Clustering**: Grouping students based on usage patterns using K-Means clustering.
-6. **Statistical Analysis**: Investigating correlations and testing hypotheses to uncover significant insights.
-7. **Recommendations**: Providing suggestions for improving chatbot design based on the findings.
+This project analyzes the dataset "Impact of Chatbots on University Students' Learning Experiences" from Kaggle (https://www.kaggle.com/datasets/jocelyndumlao/chatbots-impact-on-university-learning). The goal is to explore student perceptions of chatbots, perform sentiment analysis, cluster students based on usage patterns, and provide recommendations for chatbot improvements.
 
-This project aims to offer insights into the role of AI in enhancing student learning and inform future chatbot development in educational contexts.
+## **Steps and Methodology**
+
+### **1. Data Processing and Visualization**
+**Tasks**: Preprocess and visualize demographic data, AI usage, and attitudes with pie charts, count plots, and bar charts.
+**Outcome**: Cleaned and visualized dataset ready for further analysis.
+
+### **2. Sentiment Analysis**
+
+**Tasks**: Analyze feedback sentiment (positive, negative, neutral) and extract keywords.
+**Outcome**: Insights into student satisfaction and areas for improvement.
+
+### **3. Frequent Users’ Perceptions**
+
+**Tasks**: Visualize the benefits and challenges perceived by frequent AI users (Q8, Q9).
+**Outcome**: Bar charts showing frequent users' attitudes toward AI’s effectiveness and limitations.
+
+### **4. Infrequent Users’ Concerns**
+
+**Tasks**: Visualize concerns and willingness of infrequent users toward AI (Q6, Q7).
+**Outcome**: Insights into barriers to AI adoption among students.
+
+### **5. Clustering Analysis**
+
+**Tasks**: Apply K-Means and hierarchical clustering to identify patterns in student attitudes.
+**Outcome**: Clusters that highlight different user profiles based on AI perceptions.
+
+## **Conclusion and Recommendations**
+
+**Key Findings**: Mixed perceptions of AI, with benefits for frequent users but concerns over over-reliance and ethics.
+**Advice**: Improve AI functionality, address ethical concerns, target training for different user groups, and use continuous feedback for improvements.
